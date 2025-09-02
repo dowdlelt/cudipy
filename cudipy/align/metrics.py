@@ -7,7 +7,7 @@ import cupy as cp
 from cudipy.align import crosscorr as cc
 from cudipy.align import floating
 from cudipy.align import vector_fields as vfu
-import cupyx.scipy.ndimage
+from cupyx.scipy import ndimage
 
 
 class SimilarityMetric(object, metaclass=abc.ABCMeta):
